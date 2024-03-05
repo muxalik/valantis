@@ -47,4 +47,4 @@ jobs:
         run: |
           touch .env
           echo VITE_API_URL="https://api.valantis.store:41000" >> .env
-          echo VITE_API_PASSWORD=${{ secrets.https://api.valantis.store:41000 }} >> .env
+          echo VITE_API_PASSWORD=${{ secrets.VITE_API_PASSWORD }} >> .env
